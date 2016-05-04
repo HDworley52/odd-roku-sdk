@@ -6,6 +6,7 @@
 - Copy this file: ```dev/targets/nasa/config/app_config.sample.json```
 - Rename the copy to ```app_config.json```
 - Add your x-access-token to 'deviceAccessToken' and change the 'odd_service_endpoint' to your computer's IP address
+- Make sure you have an instance of oddworks up and running on your local machine
 
 #####Install using makefile:
 ```
