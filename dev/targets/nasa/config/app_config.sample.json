@@ -54,6 +54,6 @@
   "auth" : {
     "code_url" : "/auth/device/code",
     "token_url" : "/auth/device/token",
-    "deviceAccessToken" : "your_roku_device_ip_here"
+    "deviceAccessToken" : "your_roku_x_access_token_here"
   }
 }
