@@ -1,0 +1,6 @@
+.DS_Store
+sdk
+doc/sdk
+dist/*
+build/*
+dev/targets/nasa/config/app_config.json
