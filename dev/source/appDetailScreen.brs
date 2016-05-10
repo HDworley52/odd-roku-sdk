@@ -133,7 +133,9 @@ Function refreshShowDetail(screen As Object, showList As Object, showIndex as In
     endif
 
     print "Displaying buttons"
-    print showList[showIndex].entitled
+    if showList[showIndex].entitled <> invalid
+        print "Entitlements: " + showList[showIndex].entitled
+    endif
 
 		if showList[showIndex].entitled = true or showList[showIndex].entitled = invalid
 	    if regread(show.contentid) <> invalid

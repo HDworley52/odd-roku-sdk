@@ -151,7 +151,7 @@ Function oddApiPostMetric(action as String, contentType as String, contentId as 
   response = oddApiRequest.PostFromStringWithTimeout(content, 100)
 
 	if response = invalid
-		' request failed hard. timeout?
+		' print "request failed hard. timeout?"
 		return invalid
 	else if response.GetResponseCode() <> 201
 	  print "oddApiPostMetricRequest failed."
@@ -159,7 +159,7 @@ Function oddApiPostMetric(action as String, contentType as String, contentId as 
 		print response
 	  return false
 	else
-	  'print "oddApiPostMetricRequest success."
+	  ' print "oddApiPostMetricRequest success."
 	  return true
 	end if
 
