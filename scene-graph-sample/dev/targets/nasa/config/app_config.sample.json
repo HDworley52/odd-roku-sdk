@@ -1,0 +1,12 @@
+{
+	"settings" : {
+		"appName" : "NASA",
+		"organizationID" : "nasa",
+		"odd_service_endpoint" : "http://your_computers_ip_address_here:3000"
+  	},
+  	"auth" : {
+		"code_url" : "/auth/device/code",
+		"token_url" : "/auth/device/token",
+		"deviceAccessToken" : "your_roku_x_access_token_here"
+	}
+}
